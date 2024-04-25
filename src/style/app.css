@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .carousel-container {
+    margin-bottom: 20px;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
